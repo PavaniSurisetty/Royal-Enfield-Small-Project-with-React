@@ -1,0 +1,38 @@
+.models{
+    display: inline-flex;
+    flex-direction: column;
+}
+/* Add this to your CSS or styled-components */
+.image-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 400px;
+    border: 1px solid #ddd;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 0;
+  }
+  
+  .next-button {
+    right: 0;
+  }
+  
