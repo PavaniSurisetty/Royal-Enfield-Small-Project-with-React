@@ -10,7 +10,6 @@ function Home() {
       <Royal/>
       <FullDetails/>
       <Middle/>
-      
     </div>
   )
 }
